@@ -8,7 +8,12 @@
     'website': 'https://github.com/JardelLion',
     'license': 'LGPL-3',
     'category': '',
-    'depends': [],
+    'depends': ['website_payment', 'payment'],
+    "data":[
+        "data/payment_method.xml",
+        "data/payment_provider.xml",
+      
+    ],
     'auto_install': False,
     'application': False,
     'assets': {
